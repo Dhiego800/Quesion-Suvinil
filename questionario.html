@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/questionario.css">
+  <title>Questionario</title>
+</head>
+
+<body>
+  <main>
+    <section class="container">
+      <div class="content">
+        <div class="content-left">
+          <img src="img/img-default.png">
+        </div>
+        <div class="content-right">
+          <div class="content-change">
+            <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+
+            <div class="content-text">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>consectetur adipiscing elit. Proin pharetra venenatis ex, fermentum mattis quam sagittis vitae.</p>
+              <button id="bto-start" class="bto-decoration">Começar</button>
+            </div>
+          </div>
+
+          <!-- Introdução - Pergunta  -->
+          <div class="step step-01" data-type="introducao">
+            <div class="logo-top">
+              <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+              <figure class="logo-suvinil"><img src="img/sub-logo5-lvl1.png"></figure>
+            </div>
+            <h2 class="text-fluid">Com qual das opções abaixo você mais se identifica?</h2>
+            <form>
+              <div class="label-decoration">
+                <label>
+                  <input type="radio" name="id-perfil" value='arquiteto' />
+                  Arquiteto, decorador ou Design
+                </label>
+              </div>
+              <div class="label-decoration">
+                <label>
+                  <input type="radio" name="id-perfil" value="pintor" />
+                  Pintor
+                </label>
+              </div>
+              <div class="label-decoration">
+                <label>
+                  <input type="radio" name="id-perfil" value="consumidor" />
+                  Consumidor
+                </label>
+              </div>
+              <div class="bto-spacing">
+                <button class="bto-decoration next">Avançar</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Consumidor - 01 -->
+          <div class="group" data-type="consumidor">
+            <div class="step step-02">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl2.png"></figure>
+              </div>
+              <h2 class="text-fluid">Qual é a sua relação com a decoração e reforma da sua casa?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="A minha casa é extensão da minha personalidade, sou conectada(o) às tendências e referências da moda" />
+                    A minha casa é extensão da minha personalidade, sou conectada(o) às tendências e referências da moda
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Gosto de ter a casa mais bonita da vizinhança, gosto de ousar e usar referências que estão na moda" />
+                    Gosto de ter a casa mais bonita da vizinhança, gosto de ousar e usar referências que estão na moda
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Para mim, pintar a minha casa é um meio de manutenção e valorização" />
+                    Para mim, pintar a minha casa é um meio de manutenção e valorização
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Decorar e pintar a minha casa não é uma prioridade em minha vida" />
+                    Decorar e pintar a minha casa não é uma prioridade em minha vida
+                  </label>
+                </div>
+                <div class="bto-spacing">
+                  <button class="bto-decoration bto-return">Voltar</button>
+                  <button class="bto-decoration next">Avançar</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="step step-03">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl3.png"></figure>
+              </div>
+              <h2 class="text-fluid">Você é uma pessoa que se identifica com qual das situações abaixo?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Eu mesmo gosto de colocar a mão na massa e pintar a minha casa. Me envolvo em todo processo" />
+                    Eu mesmo gosto de colocar a mão na massa e pintar a minha casa. Me envolvo em todo processo
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Não gosto de colocar a mão na massa, mas escolho pintar por economia" />
+                    Não gosto de colocar a mão na massa, mas escolho pintar por economia
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Prefiro contratar um pintor, não gosto de colocar a mão na massa e acho o processo difícil e desgastante" />
+                    Prefiro contratar um pintor, não gosto de colocar a mão na massa e acho o processo difícil e
+                    desgastante
+                  </label>
+                </div>
+                <div class="bto-spacing">
+                  <button class="bto-decoration bto-return">Voltar</button>
+                  <button class="bto-decoration next">Avançar</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="step step-04">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl4.png"></figure>
+              </div>
+              <h2 class="text-fluid">Quando você busca uma tinta para pintar a sua casa, o que é mais importante para
+                você?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Cor e Acabamento" />
+                    Cor e Acabamento
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Características da tinta (facilidade de limpeza, anti-mofo, sem cheiro, anti-bactéria, previne fissura, etc.)" />
+                    Características da tinta (facilidade de limpeza, anti-mofo, sem cheiro, anti-bactéria, previne
+                    fissura, etc.)
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Preço e Rendimento" />
+                    Preço e Rendimento
+                  </label>
+                </div>
+                <div class="bto-spacing">
+                  <button class="bto-decoration bto-return">Voltar</button>
+                  <button class="bto-decoration next">Avançar</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="step step-05">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl5.png"></figure>
+              </div>
+              <h2 class="text-fluid">Para finalizar, qual das frases abaixo mais representa seu momento atual em relação
+                a pintura de sua casa?</h2>
+              <form class="list-question-scroll">
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Estou pensando em pintar a minha casa e estou buscando por ideias" />
+                    Estou pensando em pintar a minha casa e estou buscando por ideias
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Decidi que quero pintar a minha casa: estou planejando, pesquisando sobre produtos, preço, etc." />
+                    Decidi que quero pintar a minha casa: estou planejando, pesquisando sobre produtos, preço, etc.
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Já escolhi e sei tudo que preciso comprar; estou buscando uma loja que venda tudo que eu precise" />
+                    Já escolhi e sei tudo que preciso comprar; estou buscando uma loja que venda tudo que eu precise
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Já comprei tudo que precisa para pintar, só preciso começar a pintar ou aguardando meu pintor começar" />
+                    Já comprei tudo que precisa para pintar, só preciso começar a pintar ou aguardando meu pintor
+                    começar
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="A pintura já começou, estou aguardando o resultado final" />
+                    A pintura já começou, estou aguardando o resultado final
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Acabei de pintar minha casa " />
+                    Acabei de pintar minha casa 
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil"
+                      value="Não está nos meus planos pintar minha casa nos próximos 6 meses" />
+                    Não está nos meus planos pintar minha casa nos próximos 6 meses
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration consumidor">Concluir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pintor -->
+          <div class="group" data-type="pintor">
+            <div class="step step-06">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl2.png"></figure>
+              </div>
+              <h2 class="text-fluid">Há quanto tempo você trabalha como pintor?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="0 a 2 anos" />
+                    0 a 2 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="De 2 a 3 anos" />
+                    De 2 a 3 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="De 3 a 5 anos" />
+                    De 3 a 5 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="De 5 a 10 anos" />
+                    De 5 a 10 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Mais de 10 anos">
+                    Mais de 10 anos
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration">Avançar</button>
+              </div>
+            </div>
+
+            <div class="step step-07">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl3.png"></figure>
+              </div>
+              <h2 class="text-fluid">Que tipo de pintura você costuma trabalhar?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" value="Pintura residencial – Interna" />
+                    Pintura residencial – Interna
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" value="Pintura residencial – Externa" />
+                    Pintura residencial – Externa
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" value="Madeiras e Metais" />
+                    Madeiras e Metais
+                  </label>
+                </div>
+                <div class="label-decoration" value="Efeitos decorativos (cimento queimado, mármore, texturas, etc.)">
+                  <label>
+                    <input type="checkbox" />
+                    Efeitos decorativos (cimento queimado, mármore, texturas, etc.)
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration">Avançar</button>
+              </div>
+            </div>
+
+            <div class="step step-08">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl4.png"></figure>
+              </div>
+              <h2 class="text-fluid">Atualmente, com qual das opções abaixo você mais se identifica?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Possuo empresa de pintura com equipe" />
+                    Possuo empresa de pintura com equipe
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Trabalho sozinho, sou autônomo" />
+                    Trabalho sozinho, sou autônomo
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Trabalho para uma empresa de pintura " />
+                    Trabalho para uma empresa de pintura
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Outra" />
+                    Outra
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration">Avançar</button>
+              </div>
+            </div>
+
+            <div class="step step-09">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo5-lvl5.png"></figure>
+              </div>
+              <h2 class="text-fluid">Que tipo de conteúdo você gostaria de receber da Suvinil?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Notícias da Suvinil" />
+                    Notícias da Suvinil
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Tutoriais de pintura" />
+                    Tutoriais de pintura
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Dicas de produtos Suvinil" />
+                    Dicas de produtos Suvinil
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Oferta de produtos" />
+                    Oferta de produtos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Informações de produtos e lançamentos" />
+                    Informações de produtos e lançamentos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Dicas e conteúdo de cor, ambientes e decoração" />
+                    Dicas e conteúdo de cor, ambientes e decoração
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Treinamentos" />
+                    Treinamentos
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration pintor">Concluir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arquitetos -->
+          <div class="group" data-type="arquiteto">
+            <div class="step step-10">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo4-lvl2.png"></figure>
+              </div>
+              <h2 class="text-fluid">Há quanto tempo você trabalha como arquiteto?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="0 a 2 anos" />
+                    0 a 2 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value=" De 2 a 3 anos" />
+                    De 2 a 3 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="De 3 a 5 anos" />
+                    De 3 a 5 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="De 5 a 10 anos" />
+                    De 5 a 10 anos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Mais de 10 anos" />
+                    Mais de 10 anos
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration next">Avançar</button>
+              </div>
+            </div>
+
+            <div class="step step-11">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo4-lvl3.png"></figure>
+              </div>
+              <h2 class="text-fluid">Que tipo de projeto você costuma trabalhar com mais frequência?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Residencial" />
+                    Residencial
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Comercial (escritório, consultório)" />
+                    Comercial (escritório, consultório)
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Comercial (restaurantes, lojas)">
+                    Comercial (restaurantes, lojas)
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Industrial" />
+                    Industrial
+                  </label>
+                </div>
+              </form>
+              <div class="bto-spacing">
+                <button class="bto-decoration bto-return">Voltar</button>
+                <button class="bto-decoration next">Avançar</button>
+              </div>
+            </div>
+
+            <div class="step step-12">
+              <div class="logo-top">
+                <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+                <figure class="logo-suvinil"><img src="img/sub-logo4-lvl4.png"></figure>
+              </div>
+              <h2 class="text-fluid">Que tipo de conteúdo você gostaria de receber da Suvinil?</h2>
+              <form>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Notícias da Suvinil" />
+                    Notícias da Suvinil
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Tutoriais de pintura" />
+                    Tutoriais de pintura
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Dicas de produtos Suvinil" />
+                    Dicas de produtos Suvinil
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="radio" name="id-perfil" value="Oferta de produtos" />
+                    Oferta de produtos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" name="id-perfil" value="Informações de produtos e lançamentos"/>
+                    Informações de produtos e lançamentos
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" name="id-perfil" value="Dicas e conteúdo de cor, ambientes e decoração" />
+                    Dicas e conteúdo de cor, ambientes e decoração
+                  </label>
+                </div>
+                <div class="label-decoration">
+                  <label>
+                    <input type="checkbox" name="id-perfil" value="Treinamentos"/>
+                    Treinamentos
+                  </label>
+                </div>
+                <div class="bto-spacing">
+                  <button class="bto-decoration bto-return">Voltar</button>
+                  <button class="bto-decoration arquiteto">Concluir</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Agradecimentos -->
+        <div class="group" data-type="Agradecimentos">
+          <div class="step step-agradecimentos">
+            <div class="logo-top">
+              <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+            </div>
+            <h2 class="text-fluid">Obrigado!</h2>
+            <p class="text-end">
+              Agradeçemos por suas respostas e aproveite seu cupom de 5% de desconto em nossa loja Online
+            </p>
+            <p class="cupom-desconto">SUV5</p>
+            <div class="bto-spacing">
+              <button class="bto-decoration bto-end">Ir ao site</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- step-ops -->
+      <div class="step step-ops">
+        <div class="logo-top">
+          <figure class="logo-suvinil"><img src="img/logo.png"></figure>
+        </div>
+        <h2 class="text-ops">OPS. . .</h2>
+        <p>
+          Página não encontrada, desculpe o transtorno
+        </p>
+        <div class="bto-ops">
+          <button class="bto-decoration reload">Recarregar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/questionario.js"></script>
+</body>
+
+</html>

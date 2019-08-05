@@ -1,0 +1,185 @@
+@import 'reset.scss';
+
+body {
+    max-height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-left{
+    width: 53%;
+}
+.content-right {
+    width: 40%;
+}
+.group, .step {
+    display: none;
+}
+.text-fluid {
+    color: #353131;
+    font-size: 18px;
+    width: 57%;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.logo-suvinil, .content-text {
+    text-align: center;
+}
+.content, .content-change, .bto-spacing, .cupom-desconto, .label-decoration label {
+    display: flex;
+}
+
+.content {
+    align-items: center;
+}
+
+.content-change {
+    flex-direction: column;
+}
+
+.content-text h2 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #363232;
+    font-family: "Suvinil Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content-text p, .text-end {
+    font-size: 12px;
+    line-height: 20px;
+    color: #363232;
+    font-family: "Suvinil Sans", sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+.content-change + figure {
+    margin: 200px 0 30px;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.bto-spacing {
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.bto-end {
+    width: 254px!important;
+    height: 49px!important;
+}
+
+.bto-spacing button {
+    margin: 0 15px;
+}
+.bto-decoration {
+    width: 172px;
+    height: 49px;
+    background-color: #ff6900;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#bto-start {
+    text-transform: uppercase;
+}
+
+.bto-return {
+    width: 172px;
+    height: 49px;
+    background-color: #cecece;
+}
+
+.label-decoration {
+    width: 374px;
+    height: 50px;
+    padding: 7px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.06);
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+.label-decoration label {
+    font-size: 12px;
+    color: #3c3c3c;
+    align-items: center;
+    height: 100%;
+}
+input[type="radio" i]{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+    border: 1px solid #ebebeb;
+}
+
+.cupom-desconto {
+    width: 124px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #ff6900;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #363232;
+    margin: 20px auto;
+    margin-bottom: 140px;
+}
+
+.list-question-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 300px;
+    width: 76%;
+    margin: 20px auto;
+}
+
+.list-question-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+.list-question-scroll::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+.list-question-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;  
+    background-color: #ff6900;
+}
+
+.step-container {
+    margin: 0 100px;
+}
+
+.is--inactive {
+    display: none!important;
+}
+
+.is--active {
+    display: block!important;
+}
